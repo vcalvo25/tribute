@@ -1,0 +1,91 @@
+body {
+    background: #75dcfb;
+    color: #0C0C0C ;
+    font-family: Veranda;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  h1 {
+    font-family: "Garamond";
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+  
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+    background-size: cover;
+  }
+  
+  .films {
+    height: auto;
+    margin: 0 19em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    gap: 25px;
+    max-width: 1400px;
+  }
+  
+  .films img{
+    width: 100%;
+    max-width: 350px;
+    max-height: 900px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  figcaption {
+    text-align: center;
+    padding-top: 12px;
+  }
+  
+  p {
+    margin: 0 315px;
+    font-size: 17px;
+  }
+  
+  footer {
+    font-size: 17px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  h3 {
+    font-size: 30px;
+    margin-bottom: 7px;
+    padding: 11px;
+  }
+  
+  ul {
+    margin: 0 500px;
+    list-style-type: none;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 10px black;
+    letter-spacing: 4.7px;
+  
+  }
+  
+  #image {
+    padding-top: 100px;
+  }
+  
